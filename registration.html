@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <title>REGISTRATION</title>
+</head>
+<style>
+    body {
+        text-align: center;
+        background-color: aqua;
+    }
+
+    h1 {
+        font-family: 'Lucida Grande';
+    }
+
+    label {
+        width: 200px;;
+        display: inline-block;
+        text-align: left;
+    }
+
+    input:hover {
+        background-color: wheat;
+    
+    }
+    input{
+        border:none;
+        height: 30px;
+        padding: 5px;
+    }
+
+    button {
+        height: 30px;
+        width: 80px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        margin-left: 40px;
+        
+    }
+    button:hover{
+        background-color: white;
+        color:black;
+    }
+</style>
+
+<body>
+    <h1>REGISTRATION FORM </h1>
+    <form>
+        <H2><label>NAME : </label>
+            <input type="text" placeholder="Enter your name here"><BR>
+            <label>PASSWORD : </label>
+            <input type="PASSWORD" placeholder="Example: @Zaid_123"><br>
+            <label>GENDER : </label>
+            <input type="radio" id="male" name="gender">Male
+            <input type="radio" id="female" name="gender">Female<br>
+            <label>Email :</label>
+            <input type="email"><br>
+            <label>CONTACT : </label>
+            <input type="text" value="+91 " maxlength="14"><br>
+            <label>DOB : </label>
+            <input type="date"><br>
+
+            <label>Language known:</label>
+            <input type="checkbox" name="lang" id="english">English
+            <input type="checkbox" name="lang" id="HINDI">Hindi
+            <input type="checkbox" name="lang" id="URDU">Urdu
+            <input type="checkbox" name="lang" id="HINDI">Marathi<br>
+            <label>Address</label>
+            <textarea>Enter your address</textarea><br>
+
+            <button type="submit"> SUBMIT</button>
+            <button type="reset">RESET</button>
+        </H2>
+    </form>
+
+</body>
+
+</html>
